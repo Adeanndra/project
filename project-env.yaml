@@ -1,0 +1,19 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - conda
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst[version='>=1.0.0a0,<2.0.0']
+  - console_shortcut_miniconda
+  - powershell_shortcut_miniconda
+  - nb_conda_kernels
+  - ipykernel
+  - scikit-learn=1.2.1
+prefix: C:\Users\amyde\miniconda3
